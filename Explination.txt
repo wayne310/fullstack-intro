@@ -1,0 +1,1 @@
+The client sends a request through the browser. The frontend handles the UI, then sends data to the backend server. The backend processes it and communicates with the database if needed. The response goes back to the frontend and is shown to the user.
