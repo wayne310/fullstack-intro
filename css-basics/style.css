@@ -1,0 +1,71 @@
+/* ===== Page Layout ===== */
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main Layout */
+.main {
+    padding: 20px;
+}
+
+/* ===== BOX MODEL ===== */
+.box {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 300px;
+    height: auto;
+}
+
+/* ===== FLEXBOX ===== */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.flex-item {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* ===== FORM STYLING ===== */
+.form-section {
+    margin: 20px;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
