@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+input:focus {
+    outline: 2px solid green;
+}
+
+.highlight {
+    background: yellow;
+}
