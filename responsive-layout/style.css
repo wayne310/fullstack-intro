@@ -1,0 +1,44 @@
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* First Div */
+.div1 {
+    background-color: lightblue;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* Second Div */
+.div2 {
+    background-color: lightgreen;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* Media Query for Medium Screens */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 480px) {
+    .div1,
+    .div2 {
+        width: 90%;
+        text-align: center;
+        font-size: 24px;
+    }
+}
